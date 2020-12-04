@@ -30,7 +30,7 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
  - user
 	 - 마이크로 서비스 2
 - 그 외
-	 - zipkin-startup.sh : zip : Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
+	 - zipkin-startup.sh : Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
 ## 구동 순서
 *[참고] mac os 로컬 환경 기준으로 실행했습니다.*
 
