@@ -15,3 +15,8 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 - Zipkin
 - Elasticsearch
 - Kibana
+## 구동 순서
+1. Elasticsearch 실행
+2. Kibana 실행
+3. zipkin-startup.sh 실행하여 zipkin 실행
+4. eureka, gateway, post, user 어플리케이션 실행
