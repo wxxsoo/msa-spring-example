@@ -27,12 +27,19 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 	- Spring Cloud Neflix 기반 Service Discovery위한 eureka server 어플리케이션
 - gateway
 	 - Spring Cloud Gateway기반 API Gateway 어플리케이션
+	 - Eureka Client
+	 - Zipkin Client(Slueth)
  - post
 	 - 마이크로 서비스 1
+	 - Eureka Client
+	 - Zipkin Client(Slueth)
  - user
 	 - 마이크로 서비스 2
+	 - Eureka Client
+	 - Zipkin Client(Slueth)
 - 그 외
-	 - zipkin-startup.sh : Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
+	 - zipkin-startup.sh
+	 	- Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
 ## 구동 순서
 *[참고] mac os 로컬 환경 기준으로 실행했습니다.*
 
