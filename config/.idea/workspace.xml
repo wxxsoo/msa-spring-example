@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bae0caf-f4a4-493a-90e3-8515359657bf" name="Default Changelist" comment="" />
+    <list default="true" id="b37be99e-143d-4da9-adc6-52ca897935ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,27 +16,10 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="config" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1lJU4WHShBQJ5LbQr1ICkHcrKOZ" />
+  <component name="ProjectId" id="1lM4jYNX491aNQrDBNbcOSgQL2q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,55 +69,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bae0caf-f4a4-493a-90e3-8515359657bf" name="Default Changelist" comment="" />
-      <created>1607314496396</created>
+      <changelist id="b37be99e-143d-4da9-adc6-52ca897935ab" name="Default Changelist" comment="" />
+      <created>1607393761803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607314496396</updated>
+      <updated>1607393761803</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2343" y="208" key="#ConfigApplication" timestamp="1607387174075">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2343" y="208" key="#ConfigApplication/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607387174075" />
-    <state x="2394" y="303" key="EnvironmentVariablesDialog" timestamp="1607387173314">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2394" y="303" key="EnvironmentVariablesDialog/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607387173314" />
-    <state width="1920" height="283" key="GridCell.Tab.0.bottom" timestamp="1607391002341">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1920" height="283" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607391002341" />
-    <state width="1920" height="283" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.988@1680.23.1920.1057" timestamp="1607329776644" />
-    <state width="1920" height="283" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.989@1680.23.1920.1057" timestamp="1607315998135" />
-    <state width="1920" height="283" key="GridCell.Tab.0.center" timestamp="1607391002340">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1920" height="283" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607391002340" />
-    <state width="1920" height="283" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.988@1680.23.1920.1057" timestamp="1607329776644" />
-    <state width="1920" height="283" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.989@1680.23.1920.1057" timestamp="1607315998134" />
-    <state width="1920" height="283" key="GridCell.Tab.0.left" timestamp="1607391002339">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1920" height="283" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607391002339" />
-    <state width="1920" height="283" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.988@1680.23.1920.1057" timestamp="1607329776643" />
-    <state width="1920" height="283" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.989@1680.23.1920.1057" timestamp="1607315998134" />
-    <state width="1920" height="283" key="GridCell.Tab.0.right" timestamp="1607391002340">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1920" height="283" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607391002340" />
-    <state width="1920" height="283" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.988@1680.23.1920.1057" timestamp="1607329776644" />
-    <state width="1920" height="283" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.989@1680.23.1920.1057" timestamp="1607315998135" />
-    <state x="2333" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1607381287933">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2333" y="364" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.987@1680.23.1920.1057" timestamp="1607381287933" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/config$ConfigApplication.ic" NAME="ConfigApplication Coverage Results" MODIFIED="1607387174133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>example.scg.config.*</FILTER>
-    </SUITE>
   </component>
 </project>

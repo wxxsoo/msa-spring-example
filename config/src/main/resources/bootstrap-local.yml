@@ -1,5 +1,5 @@
 spring:
-  profiles: local # file system에서 Config file을 읽어 올 수 있도록 native profile을 활성화시켜야 합니다.
+  profiles: local
   cloud:
     config:
       server:
