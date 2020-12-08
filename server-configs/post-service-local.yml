@@ -1,0 +1,3 @@
+spring:
+  profiles: local
+  message: Post Service Local Server
