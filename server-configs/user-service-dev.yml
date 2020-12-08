@@ -1,0 +1,3 @@
+spring:
+  profiles: dev
+  message: User Service Dev Server
