@@ -1,5 +1,4 @@
 spring:
-  profile: dev
   cloud:
     config:
       server:
