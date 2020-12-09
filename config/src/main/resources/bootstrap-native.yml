@@ -1,4 +1,6 @@
 spring:
+  profiles: native
+  message: native env
   cloud:
     config:
       server:

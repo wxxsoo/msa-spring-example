@@ -1,4 +1,4 @@
 spring:
     profiles:
         active: dev
-    message: Post Service (dev)
+    message: Post Service(dev)
