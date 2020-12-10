@@ -49,17 +49,10 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 ## 구동 순서
 *[참고] mac os 로컬 환경 기준으로 실행했습니다.*
 
-1. Elasticsearch 실행
-```bash 
-$ elasticsearch
-```
-2. Kibana 실행
-```bash 
-$ kibana
-```
-3. zipkin-startup.sh 실행
+1. Elasticsearch, Kibana, RabbitMQ 실행
+2. zipkin-startup.sh 실행
 ```bash
 $ cd zipkin
 $ ./zipkin-startup.sh
 ```
-4. eureka, config, gateway, post, user 순서로 어플리케이션 각각 실행
+3. eureka, config, gateway, post, user 순서로 어플리케이션 각각 실행
