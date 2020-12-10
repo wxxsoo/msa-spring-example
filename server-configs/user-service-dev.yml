@@ -1,6 +1,6 @@
 spring:
     profiles: dev
-    message: User Service(dev)
+    message: User Service - dev
     sleuth:
         sampler:
             probability: 1.0
