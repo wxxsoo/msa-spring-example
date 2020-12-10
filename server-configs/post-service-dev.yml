@@ -1,6 +1,6 @@
 spring:
     profiles: dev
-    message: Post Service - dev - Spring Cloud Bus, RabbitMQ 연동 Test!
+    message: Post Service - dev - Spring Cloud Bus, RabbitMQ 연동 Test!!
     sleuth:
         sampler:
             probability: 1.0
