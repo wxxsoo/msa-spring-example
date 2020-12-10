@@ -4,13 +4,18 @@ spring:
 #    active: local
   application:
     name: user-service
+  rabbitmq: # RabbitMQ 관련 설정
+    host: localhost
+    port: 5672
+    username: wansoo
+    password: wansoo
 server:
   port: 9000
 management:
   endpoints:
     web:
       exposure:
-        include: info, refresh
+        include: info, refresh, bus-refresh
         #refresh 설정은 클라이언트 서버의 /actuator/refresh endpoint를 활성화하기 위한 설정
         #Config 서버에서 환경설정을 변경할 경우 클라이언트 서버에는 설정이 바로 적용되지 않는다.
         #변경사항은 클라이언트 서버에 actuator를 활성화하고 refresh endpoint로 요청을 보내야 갱신된다.

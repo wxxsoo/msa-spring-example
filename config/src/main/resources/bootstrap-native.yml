@@ -5,4 +5,10 @@ spring:
     config:
       server:
         native:
-          search-locations: file://${user.home}/local-server-configs
+          search-locations: file://${user.home}/toy-projects/msa-spring-example/local-server-configs
+  management:
+    endpoints:
+      web:
+        base-path: /actuator
+        exposure:
+          include: ['bus-refresh'] # actuator의 bus-refresh endpoint 노출시켜줍니다
