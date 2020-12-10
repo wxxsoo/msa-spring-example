@@ -16,12 +16,14 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 - Api Gateway
 	- Spring Cloud Gateway
 - Service Discovery
-	- Spring Cloud Eureka
+	- Spring Cloud Netflix Eureka
 - 로그 트레이싱
 	- Spring Cloud Sleuth  
 	- Zipkin
 	- Elasticsearch
 	- Kibana
+- Configuration
+	- Spring Cloud Config
 ## 구성
 - eureka
 	- Spring Cloud Neflix 기반 Service Discovery위한 eureka server 어플리케이션
