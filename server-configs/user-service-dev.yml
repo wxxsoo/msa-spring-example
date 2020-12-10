@@ -1,6 +1,6 @@
 spring:
     profiles: dev
-    message: User Service - dev - Spring Cloud Bus, RabbitMQ 연동 Test!!
+    message: User Service - dev
     sleuth:
         sampler:
             probability: 1.0
