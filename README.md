@@ -2,7 +2,7 @@
 ## 프로젝트 소개
 Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 ## 아키텍쳐
-![architecture](https://user-images.githubusercontent.com/46879746/101133572-523bd780-364c-11eb-996f-5d83434665c8.jpeg)
+![msa_arch_20201210 011](https://user-images.githubusercontent.com/46879746/101721530-851e1980-3aeb-11eb-998c-4df1e5d8596b.jpeg)
 ## 필수 설치 사항
 프로젝트를 구동하기 위해 로컬 환경에 다음 요소들의 설치가 필요합니다.
 - Java 11
