@@ -31,14 +31,17 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 	 - Spring Cloud Gateway기반 API Gateway 어플리케이션
 	 - Eureka Client
 	 - Zipkin Client(Slueth)
- - post
+- post
 	 - 마이크로 서비스 1
 	 - Eureka Client
 	 - Zipkin Client(Slueth)
- - user
+- user
 	 - 마이크로 서비스 2
 	 - Eureka Client
 	 - Zipkin Client(Slueth)
+- config
+ 	 - Configuration Server
+	 - 각 어플리케이션(gateway, post, user)의 설정 정보 관리
 - 그 외
 	 - zipkin-startup.sh
 	 	- Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
