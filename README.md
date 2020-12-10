@@ -55,4 +55,4 @@ $ kibana
 ```bash 
 $ zipkin-startup.sh
 ```
-4. eureka, gateway, post, user 어플리케이션 각각 실행
+4. eureka, config, gateway, post, user 순서로 어플리케이션 각각 실행
