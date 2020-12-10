@@ -1,0 +1,12 @@
+spring:
+    profiles: local
+    message: User Service(local)
+    sleuth:
+        sampler:
+            probability: 1.0
+    zipkin:
+        base-url: http://localhost:9411
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka
