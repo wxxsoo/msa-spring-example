@@ -56,7 +56,8 @@ $ elasticsearch
 $ kibana
 ```
 3. zipkin-startup.sh 실행
-```bash 
-$ zipkin-startup.sh
+```bash
+$ cd zipkin
+$ ./zipkin-startup.sh
 ```
 4. eureka, config, gateway, post, user 순서로 어플리케이션 각각 실행
