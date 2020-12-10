@@ -1,6 +1,6 @@
 spring:
   profiles: dev
-  message: Gateway Service - dev
+  message: Gateway Service Bus Test - dev
   sleuth:
       sampler:
           probability: 1.0
