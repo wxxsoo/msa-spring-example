@@ -36,9 +36,14 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 - config
  	 - Configuration Server
 	 - 각 어플리케이션(gateway, post, user)의 설정 정보 관리
-- zipkin.jar
-	 - zipkin-startup.sh
-	 	- Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
+- zipkin
+	- zipkin.jar
+ 	- zipkin-startup.sh
+		- Elasticsearch를 데이터 스토어로 지정해 zipkin.jar를 실행시키는 스크립트 수행
+- server-configs
+	- Git Repository 용 설정 파일 모음
+- local-server-configs
+	- Local 환경(피일 시스템) 용 설정 파일 모음
 ## 구동 순서
 *[참고] mac os 로컬 환경 기준으로 실행했습니다.*
 
@@ -50,8 +55,9 @@ $ elasticsearch
 ```bash 
 $ kibana
 ```
-3. zipkin-startup.sh
-```bash 
-$ zipkin-startup.sh
+3. zipkin-startup.sh 실행
+```bash
+$ cd zipkin
+$ ./zipkin-startup.sh
 ```
 4. eureka, config, gateway, post, user 순서로 어플리케이션 각각 실행
