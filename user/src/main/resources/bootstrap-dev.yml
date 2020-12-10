@@ -2,8 +2,8 @@ spring:
   profiles: dev
   cloud:
     config:
-      uri: http://localhost:8888
+      #      uri: http://localhost:8888
       fail-fast: true #클라이언트 서버를 시작할 때 Config 서버에서 정보를 로드할 수 없을 경우에는 서버를 실행하지 않겠다는 설정
-  #      discovery:
-  #        service-id: post-service
-  #        enabled: true
+      discovery:
+        service-id: config-service
+        enabled: true

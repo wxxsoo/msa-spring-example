@@ -5,4 +5,4 @@ spring:
     config:
       server:
         native:
-          search-locations: file://${user.home}/server-configs
+          search-locations: file://${user.home}/local-server-configs
