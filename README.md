@@ -2,7 +2,7 @@
 ## 프로젝트 소개
 Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 ## 아키텍쳐
-![msa_arch_20201210 011](https://user-images.githubusercontent.com/46879746/101721530-851e1980-3aeb-11eb-998c-4df1e5d8596b.jpeg)
+![msa_arch_20201210 001](https://user-images.githubusercontent.com/46879746/101736567-fd460880-3b06-11eb-9606-f7cb4306cfcf.jpeg)
 ## 필수 설치 사항
 프로젝트를 구동하기 위해 로컬 환경에 다음 요소들의 설치가 필요합니다.
 - Java 11
@@ -24,6 +24,8 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 	- Kibana
 - Configuration
 	- Spring Cloud Config
+	- Spring Cloud Bus
+	- RabbitMQ
 ## 구성
 - eureka
 	- Spring Cloud Neflix 기반 Service Discovery위한 eureka server 어플리케이션
