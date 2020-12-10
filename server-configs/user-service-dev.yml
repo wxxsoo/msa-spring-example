@@ -1,3 +1,9 @@
 spring:
+<<<<<<< HEAD
     profiles: dev
     message: User Service (dev)
+=======
+    profiles:
+        active: dev
+    message: User Service(dev)
+>>>>>>> fab912fe72b64311c8e1ddc3d78a1f0292733536
