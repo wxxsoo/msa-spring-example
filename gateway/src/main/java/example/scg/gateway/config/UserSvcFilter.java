@@ -37,15 +37,15 @@ public class UserSvcFilter extends AbstractGatewayFilterFactory<UserSvcFilter.Co
                 logger.info("[GlobalFilter Start] "+exchange.getRequest());
             }
             // 만약 Token 검증 로직이 필요하다면?
-            try {
-                String token = exchange.getRequest().getHeaders().get("Authorization").get(0).substring(7);
-                logger.info("token :" + token);
-            } catch (NullPointerException e) {
-                logger.warn("no token.");
-                exchange.getResponse().setStatusCode(HttpStatus.valueOf(401));
-                logger.info("status code :" + exchange.getResponse().getStatusCode());
-                return Mono.empty();
-            }
+//            try {
+//                String token = exchange.getRequest().getHeaders().get("Authorization").get(0).substring(7);
+//                logger.info("token :" + token);
+//            } catch (NullPointerException e) {
+//                logger.warn("no token.");
+//                exchange.getResponse().setStatusCode(HttpStatus.valueOf(401));
+//                logger.info("status code :" + exchange.getResponse().getStatusCode());
+//                return Mono.empty();
+//            }
 
             return chain.filter(exchange).then(Mono.fromRunnable(() -> {
                 //여기서 응답 처리

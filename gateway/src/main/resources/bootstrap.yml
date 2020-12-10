@@ -1,0 +1,15 @@
+server:
+  port: 5555
+spring:
+  profiles:
+    active: local
+  application:
+    name: gateway-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, refresh, routes
+        #refresh 설정은 클라이언트 서버의 /actuator/refresh endpoint를 활성화하기 위한 설정
+        #Config 서버에서 환경설정을 변경할 경우 클라이언트 서버에는 설정이 바로 적용되지 않는다.
+        #변경사항은 클라이언트 서버에 actuator를 활성화하고 refresh endpoint로 요청을 보내야 갱신된다.

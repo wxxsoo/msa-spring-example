@@ -2,10 +2,10 @@ spring:
   application:
     name: eureka-discovery-service
 server:
-  port: 8083
+  port: 8761
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
-    service-url:
-      defaultZone: http://localhost:8083/eureka
+    registerWithEureka: false #eureka 자신을 eureka 서버로 등록 여부(eureka 자신도 client가 될 수 있음)
+    fetchRegistry: false #client가 eureka 서버로부터 서비스 리스트 정보를 local에 cache할지 여부
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
