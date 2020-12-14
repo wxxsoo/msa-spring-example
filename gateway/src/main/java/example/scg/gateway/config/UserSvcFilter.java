@@ -30,11 +30,12 @@ public class UserSvcFilter extends AbstractGatewayFilterFactory<UserSvcFilter.Co
     public GatewayFilter apply(UserSvcFilter.Config config) {
         // exchange : 서비스 요청/응답 값을 담고있는 변수. 요청/응답값을 출력하거나 변환할 때 사용.
         return (exchange, chain) -> {
+
             //여기서 요청 처리
             logger.info("[UserSvcFilter baseMessage] " + config.getBaseMessage());
             if(config.isPreLogger()) {
                 // exchange : 서비스 요청/응답 값을 담고있는 변수. 요청/응답값을 출력하거나 변환할 때 사용.
-                logger.info("[GlobalFilter Start] "+exchange.getRequest());
+                logger.info("[UserSvcFilter Start] "+exchange.getRequest().toString());
             }
             // 만약 Token 검증 로직이 필요하다면?
 //            try {
@@ -50,7 +51,7 @@ public class UserSvcFilter extends AbstractGatewayFilterFactory<UserSvcFilter.Co
             return chain.filter(exchange).then(Mono.fromRunnable(() -> {
                 //여기서 응답 처리
                 if (config.isPostLogger()) {
-                    logger.info("[GlobalFilter End] "+exchange.getResponse());
+                    logger.info("[UserSvcFilter End] "+exchange.getResponse().toString());
                 }
             }));
         };

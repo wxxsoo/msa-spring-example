@@ -19,6 +19,8 @@ import java.util.List;
 @RepositoryRestResource(collectionResourceRel = "posts", path = "posts")
 public interface PostRepository extends JpaRepository<Post, Long> {
 
-    @RestResource(path = "users", rel = "users")
+//    @RestResource(path = "users", rel = "users")
+//    List<Post> findByUsername(@Param("username") String username, Pageable p);
+
     List<Post> findByUsername(@Param("username") String username, Pageable p);
 }

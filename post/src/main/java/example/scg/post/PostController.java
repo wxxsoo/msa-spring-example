@@ -1,12 +1,18 @@
 package example.scg.post;
 
+import example.scg.post.service.PostResponse;
+import example.scg.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * Created by wansoo.
@@ -20,6 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RefreshScope
 public class PostController {
+
+    private final PostService postService;
 
     @Value("${server.port}")
     private int port;
@@ -39,5 +47,10 @@ public class PostController {
     @GetMapping("/test")
     public String test() {
         return message;
+    }
+
+    @GetMapping("/search")
+    public List<PostResponse> findByUsername(@RequestParam String username, Pageable p) {
+        return postService.findByUsername(username, p);
     }
 }

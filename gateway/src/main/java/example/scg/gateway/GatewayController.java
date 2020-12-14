@@ -26,4 +26,14 @@ public class GatewayController {
     public String test() {
         return message;
     }
+
+    @GetMapping("/fallback/post-service")
+    public String fallbackMessageForPostService() {
+        return "This is a fallback for post-service";
+    }
+
+    @GetMapping("/fallback/user-service")
+    public String fallbackMessageForUserService() {
+        return "This is a fallback for user-service";
+    }
 }

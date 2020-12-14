@@ -2,8 +2,8 @@ spring:
   application:
     name: config-service
   profiles:
-#    active: native #설정 값을 Git이 아닌 로컬 파일 시스템에서 가져올 경우
-    active: dev
+    active: native #설정 값을 Git이 아닌 로컬 파일 시스템에서 가져올 경우
+#    active: dev
   rabbitmq: # RabbitMQ 관련 설정
     host: localhost
     port: 5672

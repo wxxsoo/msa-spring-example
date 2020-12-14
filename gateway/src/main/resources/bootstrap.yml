@@ -2,8 +2,8 @@ server:
   port: 5555
 spring:
   profiles:
-    active: dev
-#    active: local
+#    active: dev
+    active: local
   application:
     name: gateway-service
   rabbitmq: # RabbitMQ 관련 설정

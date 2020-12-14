@@ -30,6 +30,7 @@ spring:
           predicates:
             - Path=/users/**
           filters:
+            # - RewritePath=/users/(?<path>.*),/$\{path}
             - name: UserSvcFilter
               args:
                 baseMessage: Spring Cloud Gateway UserSvcFilter
