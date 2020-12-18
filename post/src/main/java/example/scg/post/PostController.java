@@ -3,6 +3,7 @@ package example.scg.post;
 import example.scg.post.service.PostResponse;
 import example.scg.post.service.PostService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.domain.Pageable;
@@ -25,6 +26,7 @@ import java.util.List;
 @RequestMapping("/posts")
 @RequiredArgsConstructor
 @RefreshScope
+@Slf4j
 public class PostController {
 
     private final PostService postService;
@@ -46,11 +48,13 @@ public class PostController {
 
     @GetMapping("/test")
     public String test() {
+        log.info("post-service test api called");
         return message;
     }
 
     @GetMapping("/search")
     public List<PostResponse> findByUsername(@RequestParam String username, Pageable p) {
+        log.info("post-service test api called");
         return postService.findByUsername(username, p);
     }
 }

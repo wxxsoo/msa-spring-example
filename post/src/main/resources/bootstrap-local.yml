@@ -7,3 +7,6 @@ spring:
       discovery:
         service-id: config-service
         enabled: true
+
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
