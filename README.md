@@ -2,7 +2,7 @@
 ## 프로젝트 소개
 Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 ## 아키텍쳐
-![msa_arch_20201210 001](https://user-images.githubusercontent.com/46879746/101736567-fd460880-3b06-11eb-9606-f7cb4306cfcf.jpeg)
+![image](https://user-images.githubusercontent.com/46879746/102590741-55f35200-4154-11eb-946e-76b9d0abe147.png)
 ## 필수 설치 사항
 프로젝트를 구동하기 위해 로컬 환경에 다음 요소들의 설치가 필요합니다.
 - Java 11
@@ -17,10 +17,11 @@ Spring 기반 MSA 구축 기술 검토를 위한 예제 프로젝트입니다.
 	- Spring Cloud Gateway
 - Service Discovery
 	- Spring Cloud Netflix Eureka
-- 로그 트레이싱
+- 로깅
 	- Spring Cloud Sleuth  
 	- Zipkin
 	- Elasticsearch
+	- Logstash
 	- Kibana
 - Configuration
 	- Spring Cloud Config
